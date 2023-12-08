@@ -16,6 +16,7 @@ font-weight: 700;
 line-height: 1.17; 
 letter-spacing: 0.54px;
 text-transform: uppercase;
+color: #2E2F42;
 }
 .logo-text{
     color: var(--IRIS, #4D5AE5);
