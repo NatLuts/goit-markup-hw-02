@@ -1,0 +1,115 @@
+body{
+    font-family:'Roboto', sans-serif;
+    background-color: #FFF;
+    color: #2E2F42;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.logo{
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17; 
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+.logo-text{
+    color: var(--IRIS, #4D5AE5);
+}
+.button{
+display: inline-flex;
+padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 4px;
+background: var(--IRIS, #4D5AE5);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+color: #FFF;
+cursor: pointer;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.64px;
+}
+
+.button:hover {
+ content: "";   
+ background: #404BBF;
+ transition-duration: 400ms;
+ transition-timing-function: linear;
+ cursor: pointer;
+}
+
+.contact-menu-link{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.32px;
+font-style: normal;
+color: #434455;
+}
+.contact-menu-item:hover .contact-menu-link{
+color: #404BBF;
+transition-duration: 400ms;
+transition-timing-function: linear;
+}
+
+.contact-menu-item:active .contact-menu-link{
+    color: #404BBF;
+    transition-duration: 400ms;
+    transition-timing-function: linear;
+    }
+
+.menu-link{
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; 
+letter-spacing: 0.32px;
+color: #2E2F42;
+}
+.menu-item:hover .menu-link{
+color: #404BBF;
+transition-duration: 400ms;
+transition-timing-function: linear;
+border-bottom: 2px solid#404BBF;
+}
+
+.main-title{
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07; 
+letter-spacing: 1.12px;
+color: #FFF;
+}
+.section-1{
+     background: var(--NAVY-BLUE, #2E2F42);  
+}
+.title{
+    
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2; 
+    letter-spacing: 0.4px;
+    color: #2E2F42;
+}
+.title-text{
+font-size: 16px;
+line-height: 1.5; 
+letter-spacing: 0.32px;
+color: #434455;
+}
+.footer-logo-text{
+   color: #F4F4FD; 
+}
+.footer{
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+.footer-text{
+color: var(--CLOUD, #F4F4FD);
+font-size: 16px;
+line-height: 1.5; 
+letter-spacing: 0.32px;
+}
