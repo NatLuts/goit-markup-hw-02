@@ -1,7 +1,7 @@
 body{
     font-family:'Roboto', sans-serif;
     background-color: #FFF;
-    color: #2E2F42;
+    color: #434455;
 }
 a{
     text-decoration: none;
@@ -9,6 +9,7 @@ a{
 ul{
     list-style: none;
 }
+
 .logo{
 font-family: 'Raleway', sans-serif;
 font-size: 18px;
@@ -16,19 +17,17 @@ font-weight: 700;
 line-height: 1.17; 
 letter-spacing: 0.54px;
 text-transform: uppercase;
-color: #2E2F42;
+color: #4D5AE5;
 }
 .logo-text{
-    color: var(--IRIS, #4D5AE5);
+    color: var(--NAVY-BLUE, #2E2F42)
 }
 .button{
 display: inline-flex;
 padding: 16px 32px;
 align-items: flex-start;
 gap: 10px;
-border-radius: 4px;
 background: var(--IRIS, #4D5AE5);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 color: #FFF;
 cursor: pointer;
 font-size: 16px;
@@ -53,13 +52,13 @@ font-style: normal;
 color: #434455;
 }
 .contact-menu-item:hover .contact-menu-link{
-color: #404BBF;
+color: #404bbf;
 transition-duration: 400ms;
 transition-timing-function: linear;
 }
 
 .contact-menu-item:active .contact-menu-link{
-    color: #404BBF;
+    color: #404bbf;
     transition-duration: 400ms;
     transition-timing-function: linear;
     }
@@ -72,10 +71,9 @@ letter-spacing: 0.32px;
 color: #2E2F42;
 }
 .menu-item:hover .menu-link{
-color: #404BBF;
+color: #404bbf ;
 transition-duration: 400ms;
 transition-timing-function: linear;
-border-bottom: 2px solid#404BBF;
 }
 
 .main-title{
@@ -83,9 +81,10 @@ font-size: 56px;
 font-weight: 700;
 line-height: 1.07; 
 letter-spacing: 1.12px;
+text-align: center;
 color: #FFF;
 }
-.section-1{
+.section-first{
      background: var(--NAVY-BLUE, #2E2F42);  
 }
 .title{
@@ -101,6 +100,18 @@ font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.32px;
 color: #434455;
+background-color: #FFFFFF
+}
+
+.section-title{
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
+.section-third{
+    background: var(--CLOUD, #F4F4FD);
 }
 .footer-logo-text{
    color: #F4F4FD; 
@@ -109,7 +120,7 @@ color: #434455;
     background: var(--NAVY-BLUE, #2E2F42);
 }
 .footer-text{
-color: var(--CLOUD, #F4F4FD);
+color: var(--CLOUD, #f4f4fd );
 font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.32px;
