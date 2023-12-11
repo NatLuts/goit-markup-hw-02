@@ -38,9 +38,7 @@ letter-spacing: 0.64px;
 
 .button:hover {
  content: "";   
- background: #404BBF;
- transition-duration: 400ms;
- transition-timing-function: linear;
+ background-color: #404BBF;
  cursor: pointer;
 }
 
@@ -53,14 +51,11 @@ color: #434455;
 }
 .contact-menu-item:hover .contact-menu-link{
 color: #404bbf;
-transition-duration: 400ms;
-transition-timing-function: linear;
 }
 
 .contact-menu-item:active .contact-menu-link{
     color: #404bbf;
-    transition-duration: 400ms;
-    transition-timing-function: linear;
+  
     }
 
 .menu-link{
@@ -72,8 +67,6 @@ color: #2E2F42;
 }
 .menu-item:hover .menu-link{
 color: #404bbf ;
-transition-duration: 400ms;
-transition-timing-function: linear;
 }
 
 .main-title{
@@ -113,10 +106,10 @@ text-align: center;
 color: #2e2f42;
 }
 .section-third{
-    background: var(--CLOUD, #F4F4FD);
+    background-color: var(--CLOUD, #F4F4FD);
 }
 
-.photo{
+.team-list{
     background-color: #FFF;
 }
 .footer-logo-text{
