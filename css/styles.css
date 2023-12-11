@@ -44,11 +44,11 @@ letter-spacing: 0.32px;
 font-style: normal;
 color: #434455;
 }
-.contact-menu-item:hover .contact-menu-link:hover{
+.contact-menu-link:hover{
 color: #404bbf;
 }
 
-.contact-menu-item:focus .contact-menu-link:focus{
+.contact-menu-link:focus{
 color: #404bbf;
   }
 
@@ -63,12 +63,15 @@ line-height: 1.5;
 letter-spacing: 0.32px;
 color: #2E2F42;
 }
-.menu-item:hover .menu-link:hover{
+.menu-link:hover{
 color: #404bbf ;
 }
-.menu-item:focus .menu-link:focus{
+.menu-link:focus{
 color: #404bbf ;
     }
+.menu-link:active {
+    color:#404bbf;
+}
 .main-title{
 font-size: 56px;
 font-weight: 700;
