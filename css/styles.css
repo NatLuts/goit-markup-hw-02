@@ -109,9 +109,15 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.72px;
 text-transform: capitalize;
+text-align: center;
+color: #2e2f42;
 }
 .section-third{
     background: var(--CLOUD, #F4F4FD);
+}
+
+.photo{
+    background-color: #FFF;
 }
 .footer-logo-text{
    color: #F4F4FD; 
@@ -120,7 +126,7 @@ text-transform: capitalize;
     background: var(--NAVY-BLUE, #2E2F42);
 }
 .footer-text{
-color: var(--CLOUD, #f4f4fd );
+color: var(--CLOUD, #f4f4fd);
 font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.32px;
