@@ -23,7 +23,6 @@ color: #4D5AE5;
     color: var(--NAVY-BLUE, #2E2F42)
 }
 .button{
-gap: 10px;
 background: var(--IRIS, #4D5AE5);
 color: #FFF;
 cursor: pointer;
@@ -33,10 +32,8 @@ line-height: 1.5;
 letter-spacing: 0.64px;
 }
 
-.button:hover, .button:focus {
- content: "";   
+.button:hover, .button:focus { 
  background-color: #404BBF;
- cursor: pointer;
 }
 
 
@@ -47,17 +44,18 @@ letter-spacing: 0.32px;
 font-style: normal;
 color: #434455;
 }
-.contact-menu-item:hover{
+.contact-menu-item:hover .contact-menu-link:hover{
 color: #404bbf;
 }
 
-.contact-menu-item:focus .contact-menu-link{
+.contact-menu-item:focus .contact-menu-link:focus{
 color: #404bbf;
   }
 
   .contacts{
-    font-style: normal;
+font-style: normal;
   }
+
 .menu-link{
 font-size: 16px;
 font-weight: 500;
@@ -65,10 +63,12 @@ line-height: 1.5;
 letter-spacing: 0.32px;
 color: #2E2F42;
 }
-.menu-item:hover .menu-link{
+.menu-item:hover .menu-link:hover{
 color: #404bbf ;
 }
-
+.menu-item:focus .menu-link:focus{
+color: #404bbf ;
+    }
 .main-title{
 font-size: 56px;
 font-weight: 700;
